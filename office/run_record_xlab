@@ -1,0 +1,47 @@
+"/usr/local/bin/povray" +Ioffice.pov +Ooutput/sliced/scene_x0-24_y128_z100_rx0_ry0_angle90_sliced_test.png +W640 +H480 +WT8 Declare=rotx=0 Declare=roty=0 Declare=rotz=0 Declare=transx=0 Declare=transy=128 Declare=transz=100 +FN16 +A0.0 
+      Local time: 三 2019-03-20 15:23:07 CST
+
+Render Time:
+  Photon Time:      No photons
+  Radiosity Time:   0 hours  0 minutes 51 seconds (51.201 seconds)
+              using 8 thread(s) with 405.894 CPU-seconds total
+  Trace Time:       0 hours  5 minutes 38 seconds (338.706 seconds)
+              using 8 thread(s) with 2661.206 CPU-seconds total
+POV-Ray finished
+      Local time: 三 2019-03-20 15:29:39 CST
+
+
+用WT12时，用的总时长比用WT8要多。
+"/usr/local/bin/povray" +Ioffice.pov +Ooutput/sliced/scene_x0-24_y128_z100_rx0_ry0_angle90_sliced_test.png +W640 +H480 +WT12 Declare=rotx=0 Declare=roty=0 Declare=rotz=0 Declare=transx=0 Declare=transy=128 Declare=transz=100 +FN16 +A0.0 
+	Local time: 三 2019-03-20 15:42:09 CST
+Render Time:
+  Photon Time:      No photons
+  Radiosity Time:   0 hours  0 minutes 52 seconds (52.347 seconds)
+              using 12 thread(s) with 405.536 CPU-seconds total
+  Trace Time:       0 hours  6 minutes  9 seconds (369.594 seconds)
+              using 12 thread(s) with 2656.870 CPU-seconds total
+POV-Ray finished
+	Local time: 三 2019-03-20 15:49:13 CST
+
+取消WT参数，用四个后台线程。平均每张图片用时
+      Local time: 三 2019-03-20 16:01:26 CST
+POV-Ray finished
+Render Time:
+  Photon Time:      No photons
+  Radiosity Time:   0 hours  3 minutes 36 seconds (216.660 seconds)
+              using 8 thread(s) with 423.623 CPU-seconds total
+  Trace Time:       0 hours 23 minutes  6 seconds (1386.857 seconds)
+              using 8 thread(s) with 2765.988 CPU-seconds total
+POV-Ray finished
+      Local time: 三 2019-03-20 16:28:11 CST
+
+加了RF选项以后的第一张图片
+"/usr/local/bin/povray" +Ioffice.pov +Ooutput/sliced/scene_x0-24_y128_z100_rx0_ry0_angle90_sliced_origin0.png +W640 +H480 +WT8 Declare=rotx=0 Declare=roty=0 Declare=rotz=0 Declare=transx=0 Declare=transy=128 Declare=transz=100 +FN16 +A0.0 +RFradiosity_test.txt +RFO
+Render Time:
+  Photon Time:      No photons
+  Radiosity Time:   0 hours  0 minutes 52 seconds (52.219 seconds)
+              using 8 thread(s) with 406.277 CPU-seconds total
+  Trace Time:       0 hours  5 minutes 47 seconds (347.186 seconds)
+              using 8 thread(s) with 2725.952 CPU-seconds total
+
+
